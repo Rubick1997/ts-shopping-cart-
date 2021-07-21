@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 20px;
+  min-height: 100%;
+  button {
+    border-radius: 0 0 20px 20px;
+  }
+  img {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+  .mainContent {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    min-height: 100%;
+  }
+}
